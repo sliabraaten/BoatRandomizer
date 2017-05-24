@@ -1,13 +1,13 @@
 
-class InvalidSeatConfigurationExeption extends Exception
+class InvalidSeatConfigurationException extends Exception
 {
-    public InvalidSeatConfigurationExeption ()
-    {
+	public InvalidSeatConfigurationException()
+	{
 
-    }
+	}
 
-    public InvalidSeatConfigurationExeption(String message)
-    {
-        super(message);
-    }
+	public InvalidSeatConfigurationException(String message)
+	{
+		super(message);
+	}
 }
